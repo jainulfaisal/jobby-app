@@ -1,0 +1,244 @@
+.jobs-container {
+  background-color: #000000;
+  min-height: 100vh;
+
+  padding: 40px;
+}
+.filters-section {
+  width: 100%;
+  max-width: 550px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 550px;
+  overflow: hidden;
+}
+.jobs-search {
+  background-color: transparent;
+  color: #fff;
+  flex-grow: 1;
+  border: none;
+
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+}
+
+.jobs-search-desktop-view {
+  display: none;
+}
+.search-button {
+  background-color: #272727;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 20px;
+  background-size: cover;
+  max-width: 550px;
+  width: 100%;
+}
+.profile-image {
+  width: 50px;
+}
+.separator {
+  border: 1px solid #7e858e;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 550px;
+}
+.profile-name {
+  color: #6366f1;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.profile-job {
+  color: #2c364c;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+/* Loader  */
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 180px;
+}
+
+/* Retry button */
+
+.failure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retry-button {
+  color: #fff;
+  background-color: #6366f1;
+  padding: 10px 25px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/* employement-details */
+
+.employment-type {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.employment-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.employment-item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.employment-item label {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+/* jobs section */
+
+.jobs-list-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.jobs-loader-container {
+  width: 100%;
+  max-width: 550px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.job-failure-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  margin: 40px auto;
+}
+.oops-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+.oops-para {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
+}
+.job-failure-view-image {
+  width: 300px;
+}
+.jobs-retry-button {
+  color: #fff;
+  background-color: #6366f1;
+  padding: 10px 25px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.no-jobs-container {
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.no-jobs-image {
+  width: 250px;
+}
+
+.no-jobs-heading {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.no-jobs-description {
+  color: #cbd5e1;
+  font-size: 16px;
+  text-align: center;
+}
+
+.mobile-search {
+  display: flex;
+}
+
+.desktop-search {
+  display: none;
+}
+
+/* Desktop View */
+
+@media (min-width: 768px) {
+  .jobs-container {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+  }
+  .filters-section {
+    width: 30%;
+    max-width: 300px;
+  }
+  .jobs-section {
+    margin-top: 40px;
+    flex-grow: 1;
+  }
+  .mobile-search {
+    display: none;
+  }
+
+  .desktop-search {
+    display: flex;
+    margin-bottom: 25px;
+    width: 60%;
+  }
+}

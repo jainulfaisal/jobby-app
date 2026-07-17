@@ -1,0 +1,83 @@
+.loginform-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.jobby-logo {
+  width: 100px;
+
+  margin-bottom: 30px;
+}
+.loginform-card {
+  background-color: #272727;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.label {
+  color: #f8fafc;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.input-field {
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  border: 1px solid #64748b;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.form-container {
+  width: 100%;
+}
+.login-button {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  width: 100%;
+  height: 35px;
+  background-color: #6366f1;
+  border: none;
+  border-radius: 6px;
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .jobby-logo {
+    width: 150px;
+    margin-bottom: 40px;
+  }
+  .label {
+    font-size: 18px;
+  }
+  .input-field {
+    font-size: 17px;
+  }
+  .login-button {
+    font-size: 16px;
+  }
+}

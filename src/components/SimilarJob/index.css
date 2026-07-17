@@ -1,0 +1,10 @@
+.similar-job-card {
+  background-color: #272727;
+  border-radius: 12px;
+  padding: 25px;
+}
+@media (min-width: 768px) {
+  .similar-job-card {
+    width: 280px;
+  }
+}
