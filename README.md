@@ -1,8 +1,12 @@
-Jobby App
+# Jobby App
 
 A responsive job search web application built using React.js. Users can log in, search for jobs, filter jobs based on employment type and salary range, and view detailed information about job opportunities.
 
-Features
+## Live Demo
+
+https://jainuljobbyapp.ccbp.tech
+
+## Features
 
 - User login authentication using JWT tokens
 - Protected routes for authenticated users
@@ -19,7 +23,7 @@ Features
 - Responsive design for different screen sizes
 - Not Found route for invalid URLs
 
-Technologies Used
+## Technologies Used
 
 - React.js
 - JavaScript
@@ -32,7 +36,7 @@ Technologies Used
 - Git
 - GitHub
 
-API Integration
+## API Integration
 
 The application integrates REST APIs to provide:
 
@@ -43,13 +47,13 @@ The application integrates REST APIs to provide:
 - Job details
 - Similar job recommendations
 
-Getting Started
+## Getting Started
 
-Prerequisites
+### Prerequisites
 
 Make sure you have Node.js and npm installed on your system.
 
-Installation
+### Installation
 
 Clone the repository:
 
@@ -69,12 +73,13 @@ npm start
 
 The application will run locally in your browser.
 
-Demo Credentials
+## Demo Credentials
 
 Username: rahul
+
 Password: rahul@2021
 
-Project Structure
+## Project Structure
 
 The application is organized into reusable React components and includes separate routes for:
 
@@ -84,11 +89,11 @@ The application is organized into reusable React components and includes separat
 - Job Details
 - Not Found
 
-GitHub Repository
+## GitHub Repository
 
 https://github.com/jainulfaisal/jobby-app
 
-Future Improvements
+## Future Improvements
 
 - Add advanced job filtering options
 - Improve accessibility
